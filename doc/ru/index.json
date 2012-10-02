@@ -4,6 +4,16 @@
     "description": "Правила игры, версия 2.0 от Миньки.",
     "sections": [
         {
+            "title": "Вступление",
+            "dir": "intro",
+            "articles": [
+                "authors",
+                "contributors",
+                "translators",
+                "license"
+            ]
+        },
+        {
             "title": "1.Карта",
             "dir": "1_map",
             "articles": [
