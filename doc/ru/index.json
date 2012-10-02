@@ -1,16 +1,16 @@
 {
-    "title": "JavaScript Гарден",
-    "langTitle": "JavaScript Гарден по-русски",
-    "description": "Руководство по хитростям и трюкам JavaScript.",
+    "title": "Мануал по игре D&C",
+    "langTitle": "Мануал по игре D&C",
+    "description": "Правила игры, версия 2.0 от Миньки.",
     "sections": [
         {
-            "title": "Вступление",
-            "dir": "intro",
+            "title": "1.Карта",
+            "dir": "1_map",
             "articles": [
-                "authors",
-                "contributors",
-                "translators",
-                "license"
+                "1_1 size",
+                "1_2 koord",
+                "1_3 distance",
+                "1_4 torus"
             ]
         },
         {
