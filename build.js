@@ -31,7 +31,7 @@ var Garden = Class(function(options) {
                 that.log('    Done.');
 
             } else {
-                that.log('    Error: Could not find "index.json"!');
+                that.log('    Error: Could not find "index.json"!  dir=' + that.options.dir + '/' + lang);
             }
         }
     });
@@ -189,7 +189,7 @@ var Garden = Class(function(options) {
         }
         dir = dir.join('/');
 
-        path.exists(dir, function(exists) {
+        fs.exists(dir, function(exists) {
             if (!exists) {
                 fs.mkdirSync(dir, '777');
             }
@@ -199,7 +199,7 @@ var Garden = Class(function(options) {
 });
 
 exports.build = function (options) {
-    options = options || {dir: 'doc', pathPrefix: 'JavaScript-Garden/', template: 'garden.jade', out: 'site'};
+    options = options || {dir: 'doc', pathPrefix: 'dncmanual/', template: 'garden.jade', out: 'site'};
     new Garden(options);
 }
 

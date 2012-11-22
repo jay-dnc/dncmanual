@@ -1,7 +1,7 @@
 {
     "title": "Мануал по игре D&C",
-    "langTitle": "Мануал по игре D&C",
-    "description": "Правила игры, версия 2.0 от Миньки.",
+    "langTitle": "Мануал по игре D&C от Миньки",
+    "description": "Правила игры, версия 2.0 от Миньки..",
     "sections": [
         {
             "title": "Вступление",
@@ -14,69 +14,62 @@
             ]
         },
         {
-            "title": "1.Карта",
+            "title": "1. Карта",
             "dir": "1_map",
             "articles": [
-                "1_1 size",
+               "1_1 size",
                 "1_2 koord",
                 "1_3 distance",
                 "1_4 torus"
             ]
         },
         {
-            "title": "Объекты",
-            "dir": "object",
+             "title": "2. Планеты",
+            "dir": "2_planets",
             "articles": [
-                "general",
-                "prototype",
-                "hasownproperty",
-                "forinloop"
+                "2_1-2_13"
             ]
         },
         {
-            "title": "Функции",
-            "dir": "function",
+            "title": "3. Аккаунты",
+            "dir": "3_accounts",
             "articles": [
-                "general",
-                "this",
-                "closures",
-                "arguments",
-                "constructors",
-                "scopes"
+                "3_1-3_5",
+                "3_11-3_15",
+                "3_6-3_10"
             ]
         },
         {
-            "title": "Массивы",
-            "dir": "array",
+            "title": "4. Расы",
+            "dir": "4_races",
             "articles": [
-                "general",
-                "constructor"
+                "4_1-4_8"
             ]
         },
         {
-            "title": "Типы",
-            "dir": "types",
+            "title": "5. Общие положения",
+            "dir": "5_general",
             "articles": [
-                "equality",
-                "typeof",
-                "instanceof",
-                "casting"
+               "5_1-5_8"
             ]
         },
         {
-            "title": "Нативности",
-            "dir": "core",
+            "title": "6. Экономика",
+            "dir": "6_econom",
             "articles": [
-                "eval",
-                "undefined",
-                "semicolon"
+                "6_1",
+                "6_2",
+                "6_3"
             ]
         },
         {
-            "title": "Другое",
-            "dir": "other",
+            "title": "7. Политика и Наука",
+            "dir": "7_polit",
             "articles": [
-                "timeouts"
+                "7_1",
+                "7_2",
+                "7_3",
+                "7_4"
             ]
         },
         {
